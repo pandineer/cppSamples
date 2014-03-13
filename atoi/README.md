@@ -1,4 +1,4 @@
-﻿## C++でString (char配列)をintegerに変換します。
+﻿## C++でString (char配列)をintegerに変換する。
 
     $ g++ atoi.cpp -o atoi
     $ ./atoi
