@@ -1,4 +1,4 @@
-﻿## C++で、pthread_createで作ったスレッドから、クラスのstaticではないメンバ関数を呼ぶ
+﻿## Call class member method from created thread by pthread_create
 
     $ g++ pthreadCallMethod.cpp -o pthreadCallMethod -lpthread
     $ ./pthreadCallMethod.exe

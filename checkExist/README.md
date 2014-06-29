@@ -1,5 +1,6 @@
-﻿## C++でファイルやフォルダが存在するかどうかを確認する
-ファイルやフォルダが存在したら、stat関数は0を返し、存在しなければstat関数は-1を返す
+﻿## Check file or directory exists or not
+If file or directory exists, stat() returns 0
+If not, stat() returns -1
 
     $ g++ checkExist.cpp -o checkExist
     $ touch file

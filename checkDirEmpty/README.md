@@ -1,4 +1,4 @@
-﻿## C++で指定したディレクトリが空かどうかをチェックする
+﻿## Check specified directory is empty or not
 
     $ g++ checkDirEmpty.cpp -o checkDirEmpty
     $ mkdir emptyDir
