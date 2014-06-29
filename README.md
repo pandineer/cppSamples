@@ -1,12 +1,13 @@
 ﻿cppSamples
 ==========
 
-C++ のサンプルコードを置いていきます
+Sample codes for C++
 
-## 目録
+## Index
 
-* atoi: string (char配列)を int に変換する
-* checkDirEmpty: 指定したディレクトリが空かどうかを確認する
-* checkExist: ファイルやフォルダが存在するかどうかを確認する
-* pthreadCallMethod: pthread_createで作ったスレッドからクラスのメンバ関数を呼ぶ
-* replaceString 文字列の一部を置換する
+* atoi: Convert string (char array) to int
+* checkDirEmpty: Check specified directory is empty or not
+* checkExist: Check file or directory exists or not
+* fork: fork() function usage
+* pthreadCallMethod: Call class member method from created thread by pthread_create
+* replaceString: Replace sub string
