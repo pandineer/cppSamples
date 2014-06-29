@@ -6,7 +6,7 @@ int main(void) {
   std::cout << "(First) Process ID is " << getpid() << std::endl;
   
   // Create child process
-  int forkReturnValue = fork();
+  int forkReturnValue = fork();  // -- Process forks here! ---
 
   if (forkReturnValue == 0) {
     // Child process receives 0 as a return value of fork()
